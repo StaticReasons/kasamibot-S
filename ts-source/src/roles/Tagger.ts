@@ -137,7 +137,7 @@ function runAyce(creep: Creep) {
     }
 }
 
-function makeFancyArt(creep: Creep, positions: [[number, number]], flag: RoomPosition, index: number) {
+function makeFancyArt(creep: Creep, positions: [number, number][], flag: RoomPosition, index: number) {
 
         let current = positions[index];
         let position = new RoomPosition(flag.x + current[1], flag.y + current[0], flag.roomName);
@@ -185,7 +185,7 @@ function makeFancyArt(creep: Creep, positions: [[number, number]], flag: RoomPos
 }
 
 
-function getPacmanPositions(): [[number, number]] {
+function getPacmanPositions(): [number, number][] {
     return [
         [0, 6], [0, 7], [0, 8], [0, 9], [0, 10],
         [1, 11], [1, 12],
@@ -226,7 +226,7 @@ function getPacmanPositions(): [[number, number]] {
     ];
 }
 
-function getAycePositions(): [[number, number]] {
+function getAycePositions(): [number, number][] {
     return [
         [0, 1], [0, 2], [0, 5], [0, 9], [0, 12], [0, 13], [0, 17], [0, 18], [0, 19],
         [1, 0], [1, 3], [1, 6], [1, 8], [1, 0], [1, 11], [1, 14], [1, 16],
