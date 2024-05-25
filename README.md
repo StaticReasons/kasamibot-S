@@ -1,3 +1,13 @@
+# KasamiBot-S - StaticReasons variation of KasamiBot
+
+A personal fork of kasamibot, an autonomous bot for the programmer RTS-game Screeps. Only for temporial application & study use. 
+
+It will be bug-fixed, be evolved to adapt the latest environments, until it is deprecated when I think I could make one another bot of my own - Probably nammed the Herr-aller-Dinge.
+
+**Below are the original contents of this file:**
+
+---
+
 # KasamiBot - Autonomous Screeps bot
 
 The releases of KasamiBot has been discontinued. It will be released in a new format in the future. Read about it [here](https://screeps.com/forum/topic/2000/on-the-topic-of-open-source-code-bases).
@@ -6,15 +16,7 @@ The releases of KasamiBot has been discontinued. It will be released in a new fo
 
 Read more about KasamiBot on the Github pages:
 
-[Documentation](https://kasami.github.io/kasamibot/) and [features](https://kasami.github.io/kasamibot/features.html). The source code is available on [github](https://github.com/kasami/kasamibot/).
-
----
-
-## Install the bot:
-
-* [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=1139264355)
-* [npm i screeps-bot-kasamibot](https://www.npmjs.com/package/screeps-bot-kasamibot)
-* [Download zip and use the files in dist-folder](https://github.com/kasami/kasamibot/archive/master.zip)
+[Documentation](https://kasami.github.io/kasamibot/) and [features](https://kasami.github.io/kasamibot/features.html). The source code was available on [github](https://github.com/kasami/kasamibot/).
 
 ---
 
